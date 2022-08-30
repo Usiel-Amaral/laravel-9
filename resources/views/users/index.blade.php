@@ -9,7 +9,7 @@
     </h1>
 
     <form action="{{ route('users.index') }}" method="get">
-        <input type="text" name="search" placeholder="Pesquisar">
+        <input class="bg-gray-200 px-2 py-2" type="text" name="search" placeholder="Pesquisar">
         <button class="shadow bg-purple-500 hover:bg-purple rounded-full px-4">Pesquisar</button>
     </form>
 
